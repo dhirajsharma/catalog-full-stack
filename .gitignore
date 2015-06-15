@@ -2,5 +2,7 @@
 
 node_modules
 .idea
-
+package.json
+GITFLOW.md
+planned-project.svg
 venv
