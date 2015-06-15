@@ -7,7 +7,7 @@ from flask import render_template
 
 app = Flask(__name__)
 
-@app.route('/app/')
+@app.route('/')
 def mainApp():
     return render_template('_index_.html')
 

@@ -1,4 +1,6 @@
 # catalog-full-stack .gitignore
 
 node_modules
+.idea
+
 venv
