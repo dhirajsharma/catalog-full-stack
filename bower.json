@@ -1,0 +1,25 @@
+{
+  "name": "Udacity Full Stack Project 3",
+  "version": "0.0.0",
+  "authors": [
+    "Michael Rosata <mrosata1984@gmail.com>"
+  ],
+  "description": "Web App built with Python that uses AngularJS on front-end and Flask, SQLAlchemy, OAuth2client, requests on the backend",
+  "main": "static/index.html",
+  "dependencies": {
+    "angular": "1.3.x",
+    "angular-route": "1.3.x",
+    "angular-mocks": "1.3.x",
+    "angular-animate": "~1.3.x",
+    "bootstrap": "~3.x.x"
+  },
+  "license": "MIT",
+  "homepage": "http://stayshine.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "static/components",
+    "test",
+    "test"
+  ]
+}
