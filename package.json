@@ -2,7 +2,6 @@
   "name": "project3",
   "version": "1.0.0",
   "description": "Udacity Full Stack Web Developer nanodegree. Project 3 build a webapp with authorization. This app uses Google Maps and AngularJS on front end. Flask, SQLAlchemey and OAuth2client on the backend with Python",
-  "main": "app.py",
   "scripts": {
     "postinstall": "bower install",
     "test": "node node_modules/karma/bin/karma start test/karma.conf.js",
