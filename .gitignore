@@ -6,3 +6,5 @@ package.json
 GITFLOW.md
 planned-project.svg
 venv
+
+.package.json
