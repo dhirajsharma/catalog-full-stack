@@ -10,10 +10,15 @@ __author__ = 'Michael Rosata mrosata1984@gmail.com'
 # To use this file, I added a line to ~/Envs/postactivate
 # export APP_SETINGS="config.DevelopmentConfig"
 
+import os
+
 class Config(object):
     DEBUG = False
     TESTING = False
-    SECRET_KEY = 'Z@b77Dha3b3b@dii3ou;e5123nd9xsa'
+    # Since I don't know what CSRF is for yet... no including for now!
+    # CSRF_ENABLED = True
+    SECRET_KEY = 'Z@b77Dha3b3b@dii3ou;e5123nd9xsa-/Blah'
+    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
 
 
 class ProductionConfig(Config):
